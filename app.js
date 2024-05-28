@@ -22,7 +22,6 @@ const orderRoutes = require('./routes/orders')
 
 //midelware
 app.use(cors());
-//solicitudes HTTP con formato JSON.
 app.use(express.json())
 
 app.use('/items', itemsRoutes);

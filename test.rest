@@ -19,9 +19,9 @@ POST http://localhost:3000/items/
 Content-Type: application/json
 
 {
-    "title": "Camisa",
+    "title": "Prueba 2",
     "price": 60.90,
-    "image": "menSection6.webp"
+    "image": "menSection7.webp"
 }
 
 ###
@@ -41,11 +41,11 @@ POST http://localhost:3000/order
 Content-Type: application/json
 
 {
-    "email" : "test@test.com",
+    "email" : "prueba2@prueba.com",
     "items" :[
         { 
             "id": "6576757829b42824294e9da7",
-            "qty": 2
+            "qty": 2    
         }
     ]
 }
